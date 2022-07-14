@@ -6,10 +6,9 @@ export const GlobalStyles = createGlobalStyle`
     margin:0;
     font-family: 'Girassol',cursive;
   }
+
   body{
     font-size: 1.5rem;
     background-color: ${({ theme }) => theme.colors.mainColor};
   }
-
-
 `;

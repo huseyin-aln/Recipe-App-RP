@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Cards = ({ recipes }) => {
   const navigate = useNavigate();
+
   return (
     <MainContainer wrap="wrap">
       {recipes.map(({ recipe }, index) => (

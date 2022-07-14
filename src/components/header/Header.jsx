@@ -5,13 +5,14 @@ import {
   FoodInput,
   Button,
   Select,
-} from './Header.style';
+} from "./Header.style";
 
 const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     getData();
   };
+
   return (
     <HeaderContainer>
       <MainHeader>Recipe App</MainHeader>

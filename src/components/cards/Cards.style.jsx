@@ -1,9 +1,10 @@
-import styled from 'styled-components';
-import Flex from '../../components/globalStyles/Flex';
+import styled from "styled-components";
+import Flex from "../../components/globalStyles/Flex";
 
 export const MainContainer = styled(Flex)`
   flex-direction: row;
 `;
+
 export const Card = styled(Flex)`
   flex-direction: column;
   height: 20rem;
