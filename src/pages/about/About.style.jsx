@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import Flex from '../../components/globalStyles/Flex';
+import styled from "styled-components";
+import Flex from "../../components/globalStyles/Flex";
 
 export const AboutContainer = styled(Flex)`
   flex-direction: column;
@@ -22,6 +22,7 @@ export const InfoContainer = styled.div`
     color: white;
   }
 `;
+
 export const StyledImage = styled.img`
   width: 500px;
   margin-bottom: 2rem;
