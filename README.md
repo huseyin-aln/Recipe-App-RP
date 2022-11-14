@@ -58,6 +58,7 @@ $ git clone https://github.com/huseyin-aln/Recipe-App-RP
 ```
 
 ## Acknowledgements
+
 - To display the recipes using the recipe api. 
 - If the user was not logged in, couldn’t access the detail page. 
 - Styled-component library was used for styling, react-router library for page transitions.
